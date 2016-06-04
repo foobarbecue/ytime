@@ -1,7 +1,7 @@
 /**
  * Adds a square marker just below the time bar when run on the youtube.com player.
  * Only visible when time bar is shown (this happens if you mouseover the video).
- * @param {string} - The number of seconds since the beginning of the video at which to add the marker
+ * @param seconds - The number of seconds since the beginning of the video at which to add the marker
  */
 function addMarkerAtTime(seconds){
     const prog_bar = document.getElementsByClassName('ytp-progress-bar')[0];
