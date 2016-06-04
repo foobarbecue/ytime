@@ -1,0 +1,3 @@
+Existing youtube player:
+    - progress bar in in a div with class ytp-progress-bar
+    - they are using aria js for the slider
